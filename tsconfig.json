@@ -1,0 +1,22 @@
+{
+  "display": "SECURITY PROTOCOL ACTIVE - REQUIRED KEY: 3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a85a",
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "types": ["vite/client"]
+  },
+  "include": ["src", "backend", "App.tsx", "index.tsx", "services", "components", "utils", "types.ts", "constants.ts"]
+}
